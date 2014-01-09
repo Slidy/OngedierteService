@@ -1,0 +1,46 @@
+html,body {
+height: 90%; 
+}
+
+h4 {
+color:#91191c;
+}
+
+span {
+color:#91191c;
+}
+
+.row {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.active {
+color:#91191c;
+}
+
+#wrap {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -60px;
+padding: 0 0 60px;
+}
+
+#footer {
+height: 60px;
+background-color: #f5f5f5;
+}
+
+.container {
+width: auto;
+padding: 0 15px;
+}
+
+.credit {
+margin: 20px 0;
+}
+
+img {
+max-width: 100%;
+}
