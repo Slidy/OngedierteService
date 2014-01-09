@@ -23,8 +23,8 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li><a href="../">Home</a></li>
-            <li class="active"><a href="../overons">Over ons</a></li>
-            <li><a href="../contact">Contact</a></li>
+            <li><a href="../overons">Over ons</a></li>
+            <li class="active"><a href="../contact">Contact</a></li>
             <li><a href="../webshop">Webshop</a></li>
           </ul>
         </div>
@@ -34,12 +34,30 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <img src="../img/under_construction_1250.png"/>
+            <img src="../img/cockroach.png"/>
           </div>
         </div>
         <div class="row"> 
-          <div class="col-sm-12">
-            <h1>De webshop zal spoedig online komen.</h1>
+          <div class="col-sm-6 ">
+            <p>Wilt u meer weten over onze producten en diensten? Heeft u een vraag, opmerking of klacht? Dan vernemen wij dit graag.</p>
+            <p>
+            Arent van 's-Gravesandestraat 188<br>
+            3067 KC Rotterdam<br>
+            Tel: +31 10 818 88 18
+            </p>
+          </div> 
+          <div class="col-md-6">
+            <h5>Contact formulier voor informatie of een offerte.</h5>
+            <form action="mail.php" method="POST" enctype="multipart/form-data"> 
+            <input type="hidden" name="action" value="submit"> 
+            <span>Naam:</span><br> 
+            <input name="name" type="text" value="" size="30"/><br> 
+            <span>Email:</span><br> 
+            <input name="email" type="text" value="" size="30"/><br> 
+            <span>Bericht:</span><br> 
+            <textarea name="message" rows="7" cols="40"></textarea><br> 
+            <input type="submit" value="Versturen"/> 
+            </form> 
           </div> 
         </div>
       </div>
